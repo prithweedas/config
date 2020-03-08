@@ -1,0 +1,25 @@
+{
+  "name": "@prithwee/config",
+  "version": "1.0.0",
+  "description": "CLI tool for setting up linting and other configs",
+  "main": "src/index.js",
+  "bin": "bin/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "execa": "^4.0.0",
+    "inquirer": "^7.0.4",
+    "listr": "^0.14.3"
+  }
+}
